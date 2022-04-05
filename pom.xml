@@ -4,23 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!--闪聚支付父工程-->
-    <groupId>com.shanjupay</groupId>
-    <artifactId>shanjupay</artifactId>
+    <!--聚合支付平台父工程-->
+    <groupId>com.polypay</groupId>
+    <artifactId>polypay</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <!--子模块-->
     <modules>
-        <module>shanjupay-common</module>
-        <module>shanjupay-gateway</module>
-        <module>shanjupay-merchant</module>
-        <module>shanjupay-merchant-application</module>
-        <module>shanjupay-operation-application</module>
-        <module>shanjupay-payment-agent</module>
-        <module>shanjupay-transaction</module>
-        <module>shanjupay-uaa</module>
-        <module>shanjupay-user</module>
+        <module>polypay-common</module>
+        <module>polypay-gateway</module>
+        <module>polypay-merchant</module>
+        <module>polypay-merchant-application</module>
+        <module>polypay-operation-application</module>
+        <module>polypay-payment-agent</module>
+        <module>polypay-transaction</module>
+        <module>polypay-uaa</module>
+        <module>polypay-user</module>
     </modules>
 
     <!--springboot父工程-->
@@ -117,7 +117,7 @@
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct-jdk8</artifactId>
-                <version>${org.mapstruct.version}</version>
+                <version>1.5.0.RC1</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
@@ -195,11 +195,6 @@
             </resource>
         </resources>
         <plugins>
-          <!--  <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>-->
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -209,7 +204,9 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
                 <configuration>
                     <encoding>utf-8</encoding>
                     <useDefaultDelimiters>true</useDefaultDelimiters>

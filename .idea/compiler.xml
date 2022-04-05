@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="polypay-merchant-api" />
+        <module name="polypay-user-service" />
+        <module name="polypay-cms" />
+        <module name="polypay-merchant-service" />
+        <module name="polypay-payment-agent-api" />
+        <module name="polypay-common" />
+        <module name="polypay-transaction-api" />
+        <module name="polypay-uaa-api" />
+        <module name="polypay-user-api" />
+        <module name="polypay-gateway-service" />
+        <module name="polypay-transaction-service" />
+        <module name="polypay-merchant-application" />
+        <module name="polypay-payment-agent-service" />
+        <module name="polypay-uaa-service" />
+        <module name="polypay-operation-application" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Polypay" options="" />
+      <module name="polypay-cms" options="-parameters" />
+      <module name="polypay-common" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk-11.0.12/lib/rt.jar;C:/Program Files/Java/jdk-11.0.12/lib/jce.jar&quot;" />
+      <module name="polypay-gateway-service" options="-parameters" />
+      <module name="polypay-merchant-api" options="-parameters" />
+      <module name="polypay-merchant-application" options="-parameters" />
+      <module name="polypay-merchant-service" options="-parameters" />
+      <module name="polypay-operation-application" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk-11.0.12/lib/rt.jar;C:/Program Files/Java/jdk-11.0.12/lib/jce.jar&quot;" />
+      <module name="polypay-payment-agent-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk-11.0.12/lib/rt.jar;C:/Program Files/Java/jdk-11.0.12/lib/jce.jar&quot;" />
+      <module name="polypay-payment-agent-service" options="-parameters" />
+      <module name="polypay-transaction-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk-11.0.12/lib/rt.jar;C:/Program Files/Java/jdk-11.0.12/lib/jce.jar&quot;" />
+      <module name="polypay-transaction-service" options="-parameters" />
+      <module name="polypay-uaa-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk-11.0.12/lib/rt.jar;C:/Program Files/Java/jdk-11.0.12/lib/jce.jar&quot;" />
+      <module name="polypay-uaa-service" options="-parameters" />
+      <module name="polypay-user-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk-11.0.12/lib/rt.jar;C:/Program Files/Java/jdk-11.0.12/lib/jce.jar&quot;" />
+      <module name="polypay-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

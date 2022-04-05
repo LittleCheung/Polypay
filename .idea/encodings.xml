@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/polypay-cms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-cms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-gateway/polypay-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-gateway/polypay-gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-merchant-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-merchant-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-merchant/polypay-merchant-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-merchant/polypay-merchant-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-merchant/polypay-merchant-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-operation-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-operation-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-payment-agent/polypay-payment-agent-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-payment-agent/polypay-payment-agent-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-payment-agent/polypay-payment-agent-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-transaction/polypay-transaction-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-transaction/polypay-transaction-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-transaction/polypay-transaction-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-uaa/polypay-uaa-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-uaa/polypay-uaa-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-uaa/polypay-uaa-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-user/polypay-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-user/polypay-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/polypay-user/polypay-user-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
