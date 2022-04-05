@@ -1,0 +1,24 @@
+#HTTP格式配置
+spring:
+    http:
+        encoding:
+            charset: utf-8
+            force: true
+            enabled: true
+    messages:
+        encoding: utf-8
+#tomcat头信息(用户ip和访问协议)及访问路径配置
+server:
+    tomcat:
+        remote_ip_header: x‐forwarded‐for
+        protocol_header: x‐forwarded‐proto
+    servlet:
+        context‐path: /
+    use‐forward‐headers: true
+#服务监控与管理配置，运维相关
+management:
+    endpoints:
+        web:
+            exposure:
+                include: refresh,health,info,env
+                

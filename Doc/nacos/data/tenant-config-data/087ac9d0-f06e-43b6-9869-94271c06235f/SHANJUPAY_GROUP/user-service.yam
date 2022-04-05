@@ -1,0 +1,18 @@
+# 覆盖spring‐boot‐http.yaml的项目
+server:
+  servlet:
+    context‐path: /user
+# 覆盖spring‐boot‐starter‐druid.yaml的项目
+spring:
+  datasource:
+    druid:
+     url: jdbc:mysql://127.0.0.1:3306/shanjupay_user?useUnicode=true&characterEncoding=UTF‐8&serverTimezone=Asia/Shanghai&useSSL=false
+     username: root
+     password: yourpassword
+# 覆盖spring‐boot‐mybatis‐plus.yaml的项目
+mybatis‐plus:
+  typeAliasesPackage: com.shanjupay.user.entity
+  mapper‐locations: classpath:com/shanjupay/*/mapper/xml/*.xml
+sms:
+  url: "http://localhost:56085/sailing"
+  effectiveTime: 6000

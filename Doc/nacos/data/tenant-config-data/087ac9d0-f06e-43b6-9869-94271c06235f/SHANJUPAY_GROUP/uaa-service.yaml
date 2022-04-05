@@ -1,0 +1,11 @@
+# 覆盖spring‐boot‐http.yaml的项目
+server:
+  servlet:
+    context‐path: /uaa
+# 覆盖spring‐boot‐starter‐druid.yaml的项目
+spring:
+  datasource:
+    druid:
+     url: jdbc:mysql://127.0.0.1:3306/shanjupay_uaa?useUnicode=true&characterEncoding=UTF‐8&erverTimezone=Asia/Shanghai&useSSL=false
+     username: root
+     password: yourpassword

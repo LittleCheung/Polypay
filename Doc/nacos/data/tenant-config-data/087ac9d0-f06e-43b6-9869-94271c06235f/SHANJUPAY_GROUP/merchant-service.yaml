@@ -1,0 +1,17 @@
+# 覆盖spring‐boot‐http.yaml的项目
+server:
+  servlet:
+    context‐path: /merchant‐service
+# 覆盖spring‐boot‐starter‐druid.yaml的项目
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://47.101.72.121:3306/shanjupay_merchant_service?
+useUnicode=true&characterEncoding=UTF‐8&serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: Root_123
+# 覆盖spring‐boot‐mybatis‐plus.yaml的项目
+mybatis‐plus:
+  typeAliasesPackage: com.shanjupay.merchant.entity
+  mapper‐locations: classpath:com/shanjupay/*/mapper/*.xml
+

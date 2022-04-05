@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context‐path: /merchant
+#启用Swagger
+swagger:
+  enable: true
+sms:
+  url: "http://localhost:56085/sailing/"
+  effectiveTime: 600
