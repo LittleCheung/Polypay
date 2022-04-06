@@ -1,6 +1,6 @@
 package com.shanjupay.transaction.api;
 
-import com.shanjupay.common.domain.BusinessException;
+import com.polypay.common.domain.BusinessException;
 import com.shanjupay.transaction.api.dto.PayChannelDTO;
 import com.shanjupay.transaction.api.dto.PayChannelParamDTO;
 import com.shanjupay.transaction.api.dto.PlatformChannelDTO;

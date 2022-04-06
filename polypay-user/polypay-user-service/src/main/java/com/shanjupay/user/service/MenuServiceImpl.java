@@ -2,7 +2,7 @@ package com.shanjupay.user.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.user.api.MenuService;
 import com.shanjupay.user.api.dto.menu.MenuDTO;
 import com.shanjupay.user.api.dto.menu.MenuQueryDTO;

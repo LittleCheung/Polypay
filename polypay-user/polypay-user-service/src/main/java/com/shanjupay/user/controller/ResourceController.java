@@ -1,6 +1,6 @@
 package com.shanjupay.user.controller;
 
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.user.api.MenuService;
 import com.shanjupay.user.api.ResourceService;
 import com.shanjupay.user.api.dto.authorization.AuthorizationInfoDTO;

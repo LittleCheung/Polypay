@@ -1,6 +1,6 @@
 package com.shanjupay.transaction.api;
 
-import com.shanjupay.common.domain.BusinessException;
+import com.polypay.common.domain.BusinessException;
 import com.shanjupay.paymentagent.api.dto.PaymentResponseDTO;
 import com.shanjupay.transaction.api.dto.PayOrderDTO;
 import com.shanjupay.transaction.api.dto.QRCodeDto;

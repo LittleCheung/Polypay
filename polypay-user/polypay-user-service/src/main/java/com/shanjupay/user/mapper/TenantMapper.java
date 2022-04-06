@@ -2,7 +2,6 @@ package com.shanjupay.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.shanjupay.common.domain.PageVO;
 import com.shanjupay.user.api.dto.tenant.AccountRoleDTO;
 import com.shanjupay.user.api.dto.tenant.AccountRoleQueryDTO;
 import com.shanjupay.user.api.dto.tenant.TenantDTO;

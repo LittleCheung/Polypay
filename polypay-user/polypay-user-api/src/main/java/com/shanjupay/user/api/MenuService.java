@@ -1,7 +1,7 @@
 package com.shanjupay.user.api;
 
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.user.api.dto.menu.MenuDTO;
 import com.shanjupay.user.api.dto.menu.MenuQueryDTO;
 

@@ -1,6 +1,6 @@
 package com.shanjupay.paymentagent.api;
 
-import com.shanjupay.common.domain.BusinessException;
+import com.polypay.common.domain.BusinessException;
 import com.shanjupay.paymentagent.api.conf.AliConfigParam;
 import com.shanjupay.paymentagent.api.conf.WXConfigParam;
 import com.shanjupay.paymentagent.api.dto.AlipayBean;

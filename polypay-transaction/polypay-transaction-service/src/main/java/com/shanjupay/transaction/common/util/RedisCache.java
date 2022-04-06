@@ -1,6 +1,6 @@
 package com.shanjupay.transaction.common.util;
 
-import com.shanjupay.common.cache.Cache;
+import com.polypay.common.cache.Cache;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.Set;

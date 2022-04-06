@@ -10,8 +10,6 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
-
-
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -40,6 +38,3 @@ swagger:
 
 logging:
   config: classpath:log4j2.xml
-    
-
-

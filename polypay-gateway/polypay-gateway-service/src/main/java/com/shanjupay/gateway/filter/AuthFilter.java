@@ -5,19 +5,13 @@ import com.alibaba.fastjson.JSON;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import com.shanjupay.common.util.EncryptUtil;
-import com.shanjupay.common.util.IPUtil;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.polypay.common.util.EncryptUtil;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.UUID;
 
 public class AuthFilter extends ZuulFilter {
 

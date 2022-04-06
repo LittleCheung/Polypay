@@ -1,7 +1,7 @@
 package com.shanjupay.merchant.controller;
 
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.CommonErrorCode;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.CommonErrorCode;
 import com.shanjupay.merchant.common.util.SecurityUtil;
 import com.shanjupay.transaction.api.PayChannelService;
 import com.shanjupay.transaction.api.dto.PayChannelDTO;

@@ -1,6 +1,6 @@
 package com.shanjupay.merchant.controller;
 
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.merchant.api.MerchantService;
 import com.shanjupay.merchant.api.dto.StaffDTO;
 import com.shanjupay.merchant.common.util.SecurityUtil;

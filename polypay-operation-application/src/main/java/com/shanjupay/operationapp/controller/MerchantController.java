@@ -1,6 +1,6 @@
 package com.shanjupay.operationapp.controller;
 
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.merchant.api.MerchantService;
 import com.shanjupay.merchant.api.dto.MerchantDTO;
 import com.shanjupay.merchant.api.dto.MerchantQueryDTO;
@@ -9,7 +9,6 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.apache.dubbo.config.annotation.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @Api(value = "运营平台-企业管理审核", tags = "企业管理审核", description = "企业管理审核")

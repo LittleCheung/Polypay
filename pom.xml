@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <!--子模块-->
+    <!--所包含的子模块-->
     <modules>
         <module>polypay-common</module>
         <module>polypay-gateway</module>
@@ -21,6 +21,7 @@
         <module>polypay-transaction</module>
         <module>polypay-uaa</module>
         <module>polypay-user</module>
+        <module>polypay-cms</module>
     </modules>
 
     <!--springboot父工程-->

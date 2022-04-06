@@ -1,6 +1,6 @@
 package com.shanjupay.merchant.service;
 
-import com.shanjupay.common.domain.BusinessException;
+import com.polypay.common.domain.BusinessException;
 
 /**
  * @author Administrator

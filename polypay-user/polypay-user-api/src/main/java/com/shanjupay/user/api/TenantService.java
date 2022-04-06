@@ -1,9 +1,8 @@
 package com.shanjupay.user.api;
 
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.user.api.dto.resource.ApplicationDTO;
-import com.shanjupay.user.api.dto.tenant.*;
 
 import java.util.List;
 

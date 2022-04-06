@@ -1,7 +1,7 @@
 package com.shanjupay.merchant.controller;
 
-import com.shanjupay.common.domain.PageVO;
-import com.shanjupay.common.util.QRCodeUtil;
+import com.polypay.common.domain.PageVO;
+import com.polypay.common.util.QRCodeUtil;
 import com.shanjupay.merchant.api.MerchantService;
 import com.shanjupay.merchant.api.dto.MerchantDTO;
 import com.shanjupay.merchant.api.dto.StoreDTO;

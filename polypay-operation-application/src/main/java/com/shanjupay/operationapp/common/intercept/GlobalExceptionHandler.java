@@ -1,9 +1,9 @@
 package com.shanjupay.operationapp.common.intercept;
 
 
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.CommonErrorCode;
-import com.shanjupay.common.domain.RestErrorResponse;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.CommonErrorCode;
+import com.polypay.common.domain.RestErrorResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

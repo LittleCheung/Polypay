@@ -1,7 +1,7 @@
 package com.shanjupay.user.api;
 
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.user.api.dto.authorization.AuthorizationInfoDTO;
 import com.shanjupay.user.api.dto.authorization.PrivilegeDTO;
 import com.shanjupay.user.api.dto.authorization.PrivilegeTreeDTO;

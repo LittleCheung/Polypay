@@ -1,8 +1,8 @@
 package com.shanjupay.merchant.service;
 
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.CommonErrorCode;
-import com.shanjupay.common.util.QiniuUtils;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.CommonErrorCode;
+import com.polypay.common.util.QiniuUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

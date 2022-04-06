@@ -1,6 +1,6 @@
 package com.shanjupay.transaction.config;
 
-import com.shanjupay.common.cache.Cache;
+import com.polypay.common.cache.Cache;
 import com.shanjupay.transaction.common.util.RedisCache;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

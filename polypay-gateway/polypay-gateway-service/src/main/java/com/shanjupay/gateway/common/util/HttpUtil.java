@@ -1,7 +1,7 @@
 package com.shanjupay.gateway.common.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shanjupay.common.domain.RestResponse;
+import com.polypay.common.domain.RestResponse;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

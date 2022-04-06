@@ -1,8 +1,8 @@
 package com.shanjupay.merchant.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.CommonErrorCode;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.CommonErrorCode;
 import com.shanjupay.merchant.api.AppService;
 import com.shanjupay.merchant.api.dto.AppDTO;
 import com.shanjupay.merchant.convert.AppCovert;

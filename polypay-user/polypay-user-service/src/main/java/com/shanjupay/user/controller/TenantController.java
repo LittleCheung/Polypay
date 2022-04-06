@@ -1,10 +1,8 @@
 package com.shanjupay.user.controller;
 
-import com.shanjupay.common.domain.PageVO;
+import com.polypay.common.domain.PageVO;
 import com.shanjupay.user.api.TenantService;
 import com.shanjupay.user.api.dto.resource.ApplicationDTO;
-import com.shanjupay.user.api.dto.tenant.*;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

@@ -1,8 +1,8 @@
 package com.shanjupay.merchant.service;
 
 import com.alibaba.fastjson.JSON;
-import com.shanjupay.common.domain.BusinessException;
-import com.shanjupay.common.domain.CommonErrorCode;
+import com.polypay.common.domain.BusinessException;
+import com.polypay.common.domain.CommonErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

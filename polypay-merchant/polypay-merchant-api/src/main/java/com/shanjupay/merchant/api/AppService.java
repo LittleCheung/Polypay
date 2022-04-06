@@ -1,6 +1,6 @@
 package com.shanjupay.merchant.api;
 
-import com.shanjupay.common.domain.BusinessException;
+import com.polypay.common.domain.BusinessException;
 import com.shanjupay.merchant.api.dto.AppDTO;
 
 import java.util.List;

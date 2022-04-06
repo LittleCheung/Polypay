@@ -1,7 +1,7 @@
 package com.shanjupay.uaa.domain;
 
 
-import com.shanjupay.common.util.DateUtil;
+import com.polypay.common.util.DateUtil;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

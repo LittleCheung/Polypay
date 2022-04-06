@@ -1,6 +1,6 @@
 package com.shanjupay.gateway.config;
 
-import com.shanjupay.common.domain.RestResponse;
+import com.polypay.common.domain.RestResponse;
 import com.shanjupay.gateway.common.util.HttpUtil;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.AccessDeniedException;
